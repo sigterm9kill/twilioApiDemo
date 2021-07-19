@@ -6,9 +6,9 @@
 
 
 from twilio.rest import Client
-
+# Demo account, does not matter if you try to steal these auths
 account_sid = 'AC5dd8e7bed6c2dde07dfcff1c3549a801'
-auth_token = 'fbb372f84223ff0dfd28136aedb1979e'
+auth_token = '0a1458ab5e21b924d4870ae6c99edbb2'
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
